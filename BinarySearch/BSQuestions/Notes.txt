@@ -1,0 +1,20 @@
+When to apply Binary Search 
+
+when we give an sorted array try to apply binary Search
+
+Que 1: Sealing to a number
+give an array arr = [2,3,5,9,14,16,18] (Sorted Array apply BS)
+let target = 14
+Celing = smallest element in array greater or = target
+
+if Celing ,(arr,target = 14) = 14
+if Celing ,(arr,target = 15) = 16
+if Celing ,(arr,target = 4) = 5 target <= arr[i]
+
+find the element in arra which are equal or next greater to the target
+
+
+Find Position of an element in a sorted array of infinite numbers
+
+Suppose you have a sorted array of infinite numbers, how would you search an element in the 
+array
