@@ -13,6 +13,8 @@ public class Factorial {
             // System.out.println(num);
         }
         System.out.println(fact);
+
+        sc.close();
         
     }
 }
