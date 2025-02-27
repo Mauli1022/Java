@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
 public class CountDigit {
     public static void main(String[] args) {
-        int num = 121;
+        int num = 128;
         System.out.println(countDigits(num));
     }
 
@@ -16,7 +16,6 @@ public class CountDigit {
             }
             temp /= 10;
         }
-
         return count;
     }
 }
